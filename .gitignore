@@ -1,2 +1,6 @@
 # ignore jupyter checkpoints
 */.ipynb_checkpoints/
+__pycache__
+
+*.swp
+cached-model*.pkl
