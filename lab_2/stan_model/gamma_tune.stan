@@ -3,7 +3,7 @@ functions {
         vector[3] gammas;
         gammas[1] = gamma_cdf(theta[1], exp(y[1]), exp(y[2])) - exp(y[3]);
         gammas[2] = gamma_cdf(theta[2], exp(y[1]), exp(y[2])) - exp(y[3]) - 0.98;
-        gammas[3] = exp(y[1])/exp(y[2]) - 8;
+        gammas[3] = exp(y[1])/exp(y[2]) - 7;
         return gammas;
     }
 }
